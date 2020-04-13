@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A374FAE2444012200CCFCCC /* YuppyTC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A374FAD2444012200CCFCCC /* YuppyTC-Regular.otf */; };
+		4A982B67244326F200B41B39 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A982B66244326F200B41B39 /* Music.swift */; };
+		4A982B692443279900B41B39 /* OST Itaewon Class (Full album Part1_13) 이태원 클라쓰 OST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A982B682443279900B41B39 /* OST Itaewon Class (Full album Part1_13) 이태원 클라쓰 OST.mp3 */; };
 		4ABEDECE24385BC2007555FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDECD24385BC2007555FA /* AppDelegate.swift */; };
 		4ABEDED024385BC2007555FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDECF24385BC2007555FA /* SceneDelegate.swift */; };
 		4ABEDED224385BC2007555FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDED124385BC2007555FA /* ContentView.swift */; };
 		4ABEDED424385BC4007555FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABEDED324385BC4007555FA /* Assets.xcassets */; };
 		4ABEDED724385BC4007555FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABEDED624385BC4007555FA /* Preview Assets.xcassets */; };
 		4ABEDEDA24385BC4007555FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABEDED824385BC4007555FA /* LaunchScreen.storyboard */; };
+		4ABEDEE2243863CF007555FA /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEE1243863CF007555FA /* CharacterView.swift */; };
+		4ABEDEE4243865EE007555FA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEE3243865EE007555FA /* AppView.swift */; };
+		4ABEDEE6243873FC007555FA /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEE5243873FC007555FA /* struct.swift */; };
+		4ABEDEE824388185007555FA /* CharDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEE724388185007555FA /* CharDetailView.swift */; };
+		4ABEDEEA2438CEB2007555FA /* CharacterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEE92438CEB2007555FA /* CharacterRowView.swift */; };
+		4ABEDEEC243AC4B3007555FA /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEEB243AC4B3007555FA /* EpisodeView.swift */; };
+		4ABEDEEE243AC4F8007555FA /* StillsWallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEED243AC4F8007555FA /* StillsWallView.swift */; };
+		4ABEDEF0243AC9B2007555FA /* EpisodeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEEF243AC9B2007555FA /* EpisodeRowView.swift */; };
+		4ABEDEF2243AC9EB007555FA /* EpisodeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABEDEF1243AC9EB007555FA /* EpisodeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4ABEDECA24385BC2007555FA /* IOS_work2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_work2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A374FAD2444012200CCFCCC /* YuppyTC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YuppyTC-Regular.otf"; sourceTree = "<group>"; };
+		4A50BB83243D80F500AEA798 /* IOS_work2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOS_work2.entitlements; sourceTree = "<group>"; };
+		4A982B66244326F200B41B39 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		4A982B682443279900B41B39 /* OST Itaewon Class (Full album Part1_13) 이태원 클라쓰 OST.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "OST Itaewon Class (Full album Part1_13) 이태원 클라쓰 OST.mp3"; sourceTree = "<group>"; };
+		4ABEDECA24385BC2007555FA /* ItaewonClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItaewonClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABEDECD24385BC2007555FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ABEDECF24385BC2007555FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4ABEDED124385BC2007555FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +40,15 @@
 		4ABEDED624385BC4007555FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4ABEDED924385BC4007555FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ABEDEDB24385BC4007555FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABEDEE1243863CF007555FA /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		4ABEDEE3243865EE007555FA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		4ABEDEE5243873FC007555FA /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
+		4ABEDEE724388185007555FA /* CharDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharDetailView.swift; sourceTree = "<group>"; };
+		4ABEDEE92438CEB2007555FA /* CharacterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRowView.swift; sourceTree = "<group>"; };
+		4ABEDEEB243AC4B3007555FA /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
+		4ABEDEED243AC4F8007555FA /* StillsWallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillsWallView.swift; sourceTree = "<group>"; };
+		4ABEDEEF243AC9B2007555FA /* EpisodeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRowView.swift; sourceTree = "<group>"; };
+		4ABEDEF1243AC9EB007555FA /* EpisodeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +73,7 @@
 		4ABEDECB24385BC2007555FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4ABEDECA24385BC2007555FA /* IOS_work2.app */,
+				4ABEDECA24385BC2007555FA /* ItaewonClass.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +81,22 @@
 		4ABEDECC24385BC2007555FA /* IOS_work2 */ = {
 			isa = PBXGroup;
 			children = (
+				4A50BB83243D80F500AEA798 /* IOS_work2.entitlements */,
 				4ABEDECD24385BC2007555FA /* AppDelegate.swift */,
 				4ABEDECF24385BC2007555FA /* SceneDelegate.swift */,
 				4ABEDED124385BC2007555FA /* ContentView.swift */,
+				4ABEDEE3243865EE007555FA /* AppView.swift */,
+				4A374FAD2444012200CCFCCC /* YuppyTC-Regular.otf */,
+				4ABEDEEB243AC4B3007555FA /* EpisodeView.swift */,
+				4ABEDEED243AC4F8007555FA /* StillsWallView.swift */,
+				4A982B682443279900B41B39 /* OST Itaewon Class (Full album Part1_13) 이태원 클라쓰 OST.mp3 */,
+				4ABEDEE5243873FC007555FA /* struct.swift */,
+				4ABEDEE1243863CF007555FA /* CharacterView.swift */,
+				4A982B66244326F200B41B39 /* Music.swift */,
+				4ABEDEE92438CEB2007555FA /* CharacterRowView.swift */,
+				4ABEDEEF243AC9B2007555FA /* EpisodeRowView.swift */,
+				4ABEDEE724388185007555FA /* CharDetailView.swift */,
+				4ABEDEF1243AC9EB007555FA /* EpisodeDetailView.swift */,
 				4ABEDED324385BC4007555FA /* Assets.xcassets */,
 				4ABEDED824385BC4007555FA /* LaunchScreen.storyboard */,
 				4ABEDEDB24385BC4007555FA /* Info.plist */,
@@ -92,7 +130,7 @@
 			);
 			name = IOS_work2;
 			productName = IOS_work2;
-			productReference = 4ABEDECA24385BC2007555FA /* IOS_work2.app */;
+			productReference = 4ABEDECA24385BC2007555FA /* ItaewonClass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABEDEDA24385BC4007555FA /* LaunchScreen.storyboard in Resources */,
+				4A982B692443279900B41B39 /* OST Itaewon Class (Full album Part1_13) 이태원 클라쓰 OST.mp3 in Resources */,
 				4ABEDED724385BC4007555FA /* Preview Assets.xcassets in Resources */,
+				4A374FAE2444012200CCFCCC /* YuppyTC-Regular.otf in Resources */,
 				4ABEDED424385BC4007555FA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +187,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABEDECE24385BC2007555FA /* AppDelegate.swift in Sources */,
+				4A982B67244326F200B41B39 /* Music.swift in Sources */,
+				4ABEDEEC243AC4B3007555FA /* EpisodeView.swift in Sources */,
+				4ABEDEF0243AC9B2007555FA /* EpisodeRowView.swift in Sources */,
+				4ABEDEEA2438CEB2007555FA /* CharacterRowView.swift in Sources */,
+				4ABEDEE6243873FC007555FA /* struct.swift in Sources */,
 				4ABEDED024385BC2007555FA /* SceneDelegate.swift in Sources */,
+				4ABEDEE2243863CF007555FA /* CharacterView.swift in Sources */,
+				4ABEDEE4243865EE007555FA /* AppView.swift in Sources */,
+				4ABEDEE824388185007555FA /* CharDetailView.swift in Sources */,
+				4ABEDEF2243AC9EB007555FA /* EpisodeDetailView.swift in Sources */,
 				4ABEDED224385BC2007555FA /* ContentView.swift in Sources */,
+				4ABEDEEE243AC4F8007555FA /* StillsWallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +334,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOS_work2/IOS_work2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS_work2/Preview Content\"";
+				DEVELOPMENT_TEAM = 76BRUPGDY8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = IOS_work2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,7 +346,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "NTOUCS.IOS-work2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ItaewonClass;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,8 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOS_work2/IOS_work2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"IOS_work2/Preview Content\"";
+				DEVELOPMENT_TEAM = 76BRUPGDY8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = IOS_work2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +369,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "NTOUCS.IOS-work2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ItaewonClass;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
